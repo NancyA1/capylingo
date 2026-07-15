@@ -913,20 +913,40 @@ transition:.3s;
     transform:scale(.98);
 
 }
-/* RESPONSIVE DESIGN: Stacks video underneath the box on smaller phone displays */
-@media (max-width: 768px) {
-  .split-page-container {
-    flex-direction: column;
-    padding: 40px 10px;
-  }
-  .split-left-pane,
-  .split-right-pane {
-    flex: none;
-    width: 100%;
-  }
-}
 
 @media (max-width: 1024px) {
+
+ .login-page {
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+    overflow-y: auto;
+  }
+
+  .capyimg {
+    width: 100%;
+    height: 45vh;
+    flex: none;
+  }
+
+  .capyimg img {
+    object-position: center;
+    transform: scale(1.1);
+  }
+
+  .login {
+    width: 100%;
+    min-height: 55vh;
+    padding: 30px 20px;
+    box-sizing: border-box;
+  }
+
+  .login form {
+    width: 100%;
+    max-width: 320px;
+  }
+
+
   .stats {
     grid-template-columns: repeat(2, 1fr);
   }
