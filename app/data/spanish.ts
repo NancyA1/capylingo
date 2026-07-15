@@ -17,160 +17,580 @@ export const spanishLessons: Record<number, Lesson> = {
     title: "Greetings",
     description: "Learn common Spanish greetings.",
     questions: [
-      { question: "hello", answer: "hola", pronunciation: "oh-lah", hint: "The most common Spanish greeting.", image: "greetings/hello.png" },
-      { question: "goodbye", answer: "adiós", pronunciation: "ah-dyohss", hint: "Used when leaving someone.", image: "greetings/goodbye.png" },
-      { question: "thank you", answer: "gracias", pronunciation: "grah-syahss", hint: "Used to express gratitude.", image: "greetings/thankyou.png" },
-      { question: "please", answer: "por favor", pronunciation: "por fah-vor", hint: "A polite phrase when asking for something.", image: "greetings/please.png" },
-      { question: "yes", answer: "sí", pronunciation: "see", hint: "Positive answer.", image: "greetings/yes.png" },
-      { question: "no", answer: "no", pronunciation: "noh", hint: "Negative answer.", image: "greetings/no.png" },
-      { question: "good morning", answer: "buenos días", pronunciation: "bweh-nohss deeyahss", hint: "Morning greeting.", image: "greetings/morning.png" },
-      { question: "good evening", answer: "buenas noches", pronunciation: "bweh-nahss noh-chehss", hint: "Evening or night greeting.", image: "greetings/evening.png" },
-      { question: "how are you?", answer: "cómo estás", pronunciation: "koh-moh ehss-tahss", hint: "Ask someone how they are doing.", image: "greetings/howareyou.png" },
-      { question: "I am fine", answer: "estoy bien", pronunciation: "ehss-toy byehn", hint: "Reply when you're doing well.", image: "greetings/fine.png" },
+      { 
+        question: "hello", 
+        answer: "hola", 
+        pronunciation: "oh-lah", 
+        hint: "The most common Spanish greeting.", 
+        image: "https://static.vecteezy.com/system/resources/previews/059/555/037/non_2x/happy-young-women-greeting-waving-with-hand-hello-gesture-joyful-communication-flat-vector.jpg" 
+      },
+      { 
+        question: "goodbye", 
+        answer: "adiós", 
+        pronunciation: "ah-dyohss", 
+        hint: "Used when leaving someone.", 
+        image: "https://static.vecteezy.com/system/resources/previews/059/681/523/non_2x/flat-cartoon-illustration-of-a-happy-schoolboy-waving-goodbye-ready-for-school-free-vector.jpg" 
+      },
+      { 
+        question: "thank you", 
+        answer: "gracias", 
+        pronunciation: "grah-syahss", 
+        hint: "Used to express gratitude.", 
+        image: "https://static.vecteezy.com/system/resources/previews/006/013/201/non_2x/grateful-people-saying-thank-you-man-and-woman-keeping-hands-on-chest-expresses-gratitude-being-thankful-for-help-and-support-flat-illustration-vector.jpg" 
+      },
+      { 
+        question: "please", 
+        answer: "por favor", 
+        pronunciation: "por fah-vor", 
+        hint: "A polite phrase when asking for something.", 
+        image: "https://img.magnific.com/free-vector/flat-design-please-illustration_23-2150187480.jpg?semt=ais_hybrid&w=740&q=80" 
+      },
+      { 
+        question: "yes", 
+        answer: "sí", 
+        pronunciation: "see", 
+        hint: "Positive answer.", 
+        image: "https://static.vecteezy.com/system/resources/thumbnails/047/526/915/small_2x/yes-check-mark-cartoon-illustration-vector.jpg" 
+      },
+      { 
+        question: "no", 
+        answer: "no", 
+        pronunciation: "noh", 
+        hint: "Negative answer.", 
+        image: "https://img.magnific.com/free-vector/stressed-man-holding-his-head_1308-171901.jpg?semt=ais_hybrid&w=740&q=80" 
+      },
+      { 
+        question: "good morning", 
+        answer: "buenos días", 
+        pronunciation: "bweh-nohss deeyahss", 
+        hint: "Morning greeting.", 
+        image: "https://media.istockphoto.com/id/97403299/vector/rooster-standing-on-fence-post-crowing-as-the-sun-rises.jpg?s=612x612&w=0&k=20&c=wBTNcEvEL5R4Q_inMmIuJ-luoU_XqYztMXEgu_JuoSs=" 
+      },
+      { 
+        question: "good evening", 
+        answer: "buenas noches", 
+        pronunciation: "bweh-nahss noh-chehss", 
+        hint: "Evening or night greeting.", 
+        image: "https://media.istockphoto.com/id/1258106839/vector/panorama-of-sea-sunset-or-ocean-sunrise-vector-illustration-of-water-and-sky-horizon-sun.jpg?s=612x612&w=0&k=20&c=u1vE5Og2e7QioYzssdceoLPl9xlwSHT0yOK4tVMeHLI=" 
+      },
+      { 
+        question: "how are you?", 
+        answer: "cómo estás", 
+        pronunciation: "koh-moh ehss-tahss", 
+        hint: "Ask someone how they are doing.", 
+        image: "https://static.vecteezy.com/system/resources/thumbnails/007/685/789/small/young-smiling-cheerful-people-of-different-nationalities-colleagues-or-friends-wave-their-hand-in-a-friendly-greeting-flat-illustration-isolated-on-white-free-vector.jpg" 
+      },
+      { 
+        question: "I am fine", 
+        answer: "estoy bien", 
+        pronunciation: "ehss-toy byehn", 
+        hint: "Reply when you're doing well.", 
+        image: "https://media.istockphoto.com/id/1390284387/vector/smiling-confident-businessman-with-thumbs-up-gesture-successful-man-best-choice-retro-pop.jpg?s=612x612&w=0&k=20&c=ybAGm5li_rur79kEGi6ClgnMLpX4kaeKKWP-im--UhQ=" 
+      },
     ],
   },
   2: {
     title: "Animals",
     description: "Learn common animal names.",
     questions: [
-      { question: "cat", answer: "gato", pronunciation: "gah-toh", hint: "A popular, independent pet.", image: "animals/cat.png" },
-      { question: "dog", answer: "perro", pronunciation: "peh-rroh", hint: "Man's best friend.", image: "animals/dog.png" },
-      { question: "bird", answer: "pájaro", pronunciation: "pah-khah-roh", hint: "An animal that flies.", image: "animals/bird.png" },
-      { question: "fish", answer: "pez", pronunciation: "pehss", hint: "Lives in water (while alive).", image: "animals/fish.png" },
-      { question: "horse", answer: "caballo", pronunciation: "kah-bah-yoh", hint: "Used for riding and farm work.", image: "animals/horse.png" },
-      { question: "lion", answer: "león", pronunciation: "leh-ohn", hint: "King of the jungle.", image: "animals/lion.png" },
-      { question: "elephant", answer: "elefante", pronunciation: "eh-leh-fahn-teh", hint: "Largest land animal.", image: "animals/elephant.png" },
-      { question: "rabbit", answer: "conejo", pronunciation: "koh-neh-khoh", hint: "Has long ears and hops.", image: "animals/rabbit.png" },
-      { question: "bear", answer: "oso", pronunciation: "oh-soh", hint: "Large wild forest animal.", image: "animals/bear.png" },
-      { question: "tiger", answer: "tigre", pronunciation: "tee-greh", hint: "A striped wild cat.", image: "animals/tiger.png" },
+      { question: "cat", answer: "gato", pronunciation: "gah-toh", hint: "A popular, independent pet.", image: "https://i.pinimg.com/736x/90/68/d3/9068d39a1cc4173c33a69bd11a127fab.jpg" },
+      { question: "dog", answer: "perro", pronunciation: "peh-rroh", hint: "Man's best friend.", image: "https://i.pinimg.com/736x/55/c1/a4/55c1a4112135d9dc81217521bd926ca3.jpg" },
+      { question: "bird", answer: "pájaro", pronunciation: "pah-khah-roh", hint: "An animal that flies.", image: "https://i.pinimg.com/1200x/f2/cb/f4/f2cbf4d2bfc8b4406ec088cf665d6370.jpg" },
+      { question: "fish", answer: "pez", pronunciation: "pehss", hint: "Lives in water (while alive).", image: "https://i.pinimg.com/736x/6e/0c/35/6e0c35017a977d434ac57ed8b475077d.jpg" },
+      { question: "horse", answer: "caballo", pronunciation: "kah-bah-yoh", hint: "Used for riding and farm work.", image: "https://i.pinimg.com/1200x/e5/ce/00/e5ce0042cc7ef3677c84a413752b64dd.jpg" },
+      { question: "lion", answer: "león", pronunciation: "leh-ohn", hint: "King of the jungle.", image: "https://i.pinimg.com/1200x/3c/b9/75/3cb9751e83e64348c216d1e1b0cb2938.jpg" },
+      { question: "elephant", answer: "elefante", pronunciation: "eh-leh-fahn-teh", hint: "Largest land animal.", image: "https://i.pinimg.com/736x/64/f2/7e/64f27ee42124fdf02d1f720a9ef4d956.jpg" },
+      { question: "rabbit", answer: "conejo", pronunciation: "koh-neh-khoh", hint: "Has long ears.", image: "https://i.pinimg.com/736x/77/86/b1/7786b18509ff984fb34ac1b64b882b41.jpg" },
+      { question: "bear", answer: "oso", pronunciation: "oh-soh", hint: "Large wild animal.", image: "https://i.pinimg.com/736x/ff/cf/97/ffcf975055540ddf519231ab7c7e75f2.jpg" },
+      { question: "tiger", answer: "tigre", pronunciation: "tee-greh", hint: "A striped wild cat.", image: "https://i.pinimg.com/736x/4f/9f/12/4f9f12efd637abe70f7ab0058bb21942.jpg" },
     ],
   },
   3: {
     title: "Food",
     description: "Learn common food vocabulary.",
     questions: [
-      { question: "apple", answer: "manzana", pronunciation: "mahn-thah-nah", hint: "A common crisp fruit.", image: "food/apple.png" },
-      { question: "bread", answer: "pan", pronunciation: "pahn", hint: "A basic food made from baked flour.", image: "food/bread.png" },
-      { question: "water", answer: "agua", pronunciation: "ah-gwah", hint: "Essential cold fluid for life.", image: "food/water.png" },
-      { question: "milk", answer: "leche", pronunciation: "leh-cheh", hint: "A white dairy drink.", image: "food/milk.png" },
-      { question: "rice", answer: "arroz", pronunciation: "ah-rrohss", hint: "A common tiny white grain.", image: "food/rice.png" },
-      { question: "chicken", answer: "pollo", pronunciation: "poh-yoh", hint: "A very popular poultry meat.", image: "food/chicken.png" },
-      { question: "cheese", answer: "queso", pronunciation: "keh-soh", hint: "A dairy product made from milk curds.", image: "food/cheese.png" },
-      { question: "egg", answer: "huevo", pronunciation: "weh-voh", hint: "Comes from a chicken.", image: "food/egg.png" },
-      { question: "banana", answer: "plátano", pronunciation: "plah-tah-noh", hint: "A long yellow tropical fruit.", image: "food/banana.png" },
-      { question: "coffee", answer: "café", pronunciation: "kah-feh", hint: "A popular hot dark drink.", image: "food/coffee.png" },
+      { question: "apple", answer: "manzana", pronunciation: "mahn-thah-nah", hint: "A common fruit.", image: "https://i.pinimg.com/1200x/c5/61/7a/c5617ad6d2a3b422ec45d7c478c53fd0.jpg" },
+      { question: "bread", answer: "pan", pronunciation: "pahn", hint: "A basic food made from flour.", image: "https://i.pinimg.com/1200x/60/95/22/6095223749578f60ba39396b5f53bea8.jpg" },
+      { question: "water", answer: "agua", pronunciation: "ah-gwah", hint: "Essential for life.", image: "https://i.pinimg.com/736x/10/e8/43/10e843639e2ca6ae5b405ba8fe499f3d.jpg" },
+      { question: "milk", answer: "leche", pronunciation: "leh-cheh", hint: "A white dairy drink.", image: "https://i.pinimg.com/736x/f4/25/20/f425206ec30749368439cc016a707d5c.jpg" },
+      { question: "rice", answer: "arroz", pronunciation: "ah-rrohth", hint: "A common grain.", image: "https://i.pinimg.com/1200x/66/55/b7/6655b754043acb712a705784f48ed4b5.jpg" },
+      { question: "chicken", answer: "pollo", pronunciation: "poh-yoh", hint: "A popular meat.", image: "https://i.pinimg.com/736x/05/ab/ba/05abba99612dd7bd298a244f2caa02f0.jpg" },
+      { question: "cheese", answer: "queso", pronunciation: "keh-soh", hint: "A popular dairy food.", image: "https://i.pinimg.com/736x/a3/0a/8f/a30a8f2c0cf706b51e97f19585b67991.jpg" },
+      { question: "egg", answer: "huevo", pronunciation: "weh-voh", hint: "Comes from a chicken.", image: "https://i.pinimg.com/736x/ce/15/b5/ce15b50f4f726b8b2526298d1f92d3d9.jpg" },
+      { question: "banana", answer: "plátano", pronunciation: "plah-tah-noh", hint: "A long yellow fruit.", image: "https://i.pinimg.com/736x/f6/6b/ba/f66bba832344648fc58b2e523b9c1534.jpg" },
+      { question: "coffee", answer: "café", pronunciation: "kah-feh", hint: "A popular hot drink.", image: "https://i.pinimg.com/736x/e7/a4/53/e7a45353e974d8fe3bcb0ffcb33751e9.jpg" },
     ],
   },
   4: {
     title: "Family",
     description: "Learn vocabulary for family members.",
     questions: [
-      { question: "father", answer: "padre", pronunciation: "pah-dreh", hint: "A male parent.", image: "family/father.png" },
-      { question: "mother", answer: "madre", pronunciation: "mah-dreh", hint: "A female parent.", image: "family/mother.png" },
-      { question: "son", answer: "hijo", pronunciation: "ee-khoh", hint: "A male child.", image: "family/son.png" },
-      { question: "daughter", answer: "hija", pronunciation: "ee-khah", hint: "A female child.", image: "family/daughter.png" },
-      { question: "brother", answer: "hermano", pronunciation: "ehr-mah-noh", hint: "A male sibling.", image: "family/brother.png" },
-      { question: "sister", answer: "hermana", pronunciation: "ehr-mah-nah", hint: "A female sibling.", image: "family/sister.png" },
-      { question: "grandfather", answer: "abuelo", pronunciation: "ah-bweh-loh", hint: "Your parent's father.", image: "family/grandfather.png" },
-      { question: "grandmother", answer: "abuela", pronunciation: "ah-bweh-lah", hint: "Your parent's mother.", image: "family/grandmother.png" },
-      { question: "uncle", answer: "tío", pronunciation: "tee-oh", hint: "Your parent's brother.", image: "family/uncle.png" },
-      { question: "aunt", answer: "tía", pronunciation: "tee-ah", hint: "Your parent's sister.", image: "family/aunt.png" },
-    ],
+      {
+        question: "father",
+        answer: "padre",
+        pronunciation: "pah-dreh",
+        hint: "A male parent.",
+        image: "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQG1D8cHoK0gLba10DjAcTVvtBJeZ3O4eVQXQqrkELQrJt-I-haAwxHLZVo12XQuwawlKGEvci-aVTh3eM"
+      },
+      {
+        question: "mother",
+        answer: "madre",
+        pronunciation: "mah-dreh",
+        hint: "A female parent.",
+        image: "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSJzrILWs1BTEebGhTQ0lnhzZ-hMPXCVOMbr8nCUil5u4HqRa4znheJbHgRo6wF_fI6MSxrkuwz_idOlPk"
+      },
+      {
+        question: "son",
+        answer: "hijo",
+        pronunciation: "ee-khoh",
+        hint: "A male child.",
+        image: "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcR6tWTonqJF8b5YWQC-HJ3BLL9KMV3Le0bb903eBMSeHYuvld0GN-GpJgr-EOhSy5hYfAzOaMa5u7hb5dk"
+      },
+      {
+        question: "daughter",
+        answer: "hija",
+        pronunciation: "ee-khah",
+        hint: "A female child.",
+        image: "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTQ5D4iwvrulvAUuqiTRMkOUwx1tVeKpYnrOWP11wToVtvNUdP49DeewFgd2gCJITlqHgyMTCTu2f1mCI4"
+      },
+      {
+        question: "brother",
+        answer: "hermano",
+        pronunciation: "ehr-mah-noh",
+        hint: "A male sibling.",
+        image: "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSNoSkgY0hoGbhBlObRRIoYeKw_K1OldV5NhfAKG6B_IhQPdgbiRX_d4UQlu1HRaLZt8u7D6lVhNojePHU"
+      },
+      {
+        question: "sister",
+        answer: "hermana",
+        pronunciation: "ehr-mah-nah",
+        hint: "A female sibling.",
+        image: "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTVzvgJAn1TJ02Hy7o2SSY26vHTjrL3b97vTixaXWgy02_PhqCfihaEGEGpFpDmtP0nM8_fy1oo4uMGcLc"
+      },
+      {
+        question: "grandfather",
+        answer: "abuelo",
+        pronunciation: "ah-bweh-loh",
+        hint: "Your parent's father.",
+        image: "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTX1nO2Xc8Zvz7Dd5JzyWhma55CUGEar4qLVbqmUBiZpx4pwJ7Q3KY26poHWT80H2dPCRh7J8IkSI2joCE"
+      },
+      {
+        question: "grandmother",
+        answer: "abuela",
+        pronunciation: "ah-bweh-lah",
+        hint: "Your parent's mother.",
+        image: "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSiu86cmaVYt8X0GL4vDT6VklKmiH23dVGMCjsf9KFS2KonoE538kUZK516RhsJByTvhCKXYGdtV_IBEfs"
+      },
+      {
+        question: "uncle",
+        answer: "tío",
+        pronunciation: "tee-oh",
+        hint: "Your parent's brother.",
+        image: "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcS66xMYCQRaf5riFiOa2jsQx7KZ9fo5iDlyxmPbtFenBIGgXkGxS8chwKabf2XyhP91Eb7QDcBYpEQVwOo"
+      },
+      {
+        question: "aunt",
+        answer: "tía",
+        pronunciation: "tee-ah",
+        hint: "Your parent's sister.",
+        image: "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTNvtTS-qYDt03MVJwEHUzsAYOPOHtV6OUJOI3rhGE_L5JoyW82e1LZoIGe-gIWUxjuU599sVcn6pcQcIQ"
+      }
+    ]
   },
   5: {
     title: "Travel",
     description: "Useful words for navigating and traveling.",
     questions: [
-      { question: "passport", answer: "pasaporte", pronunciation: "pah-sah-por-teh", hint: "Official travel document.", image: "travel/passport.png" },
-      { question: "hotel", answer: "hotel", pronunciation: "oh-tel", hint: "A place to stay while traveling.", image: "travel/hotel.png" },
-      { question: "train", answer: "tren", pronunciation: "trehn", hint: "Runs on a railway track.", image: "travel/train.png" },
-      { question: "plane", answer: "avión", pronunciation: "ah-byohn", hint: "Flies in the sky.", image: "travel/plane.png" },
-      { question: "car", answer: "coche", pronunciation: "koh-cheh", hint: "A 4-wheeled road vehicle.", image: "travel/car.png" },
-      { question: "ticket", answer: "billete", pronunciation: "bee-yeh-teh", hint: "Shows you paid for your ride.", image: "travel/ticket.png" },
-      { question: "airport", answer: "aeropuerto", pronunciation: "ah-eh-roh-pwer-toh", hint: "Where planes take off and land.", image: "travel/airport.png" },
-      { question: "station", answer: "estación", pronunciation: "ehss-tah-thyohn", hint: "Where you catch a train or bus.", image: "travel/station.png" },
-      { question: "baggage", answer: "equipaje", pronunciation: "eh-kee-pah-kheh", hint: "Suitcases and bags for travel.", image: "travel/baggage.png" },
-      { question: "map", answer: "mapa", pronunciation: "mah-pah", hint: "A visual guide for orientation.", image: "travel/map.png" },
-    ],
+      { 
+        question: "passport", 
+        answer: "pasaporte", 
+        pronunciation: "pah-sah-por-teh", 
+        hint: "Official travel document.", 
+        image: "https://img.magnific.com/premium-vector/passport-cartoon-style-vector-illustration_1116403-1471.jpg" 
+      },
+      { 
+        question: "hotel", 
+        answer: "hotel", 
+        pronunciation: "oh-tel", 
+        hint: "A place to stay while traveling.", 
+        image: "https://static.vecteezy.com/system/resources/previews/015/694/767/non_2x/skyscraper-hotel-building-flat-cartoon-hand-drawn-illustration-template-with-view-on-city-space-of-street-panorama-design-vector.jpg" 
+      },
+      { 
+        question: "train", 
+        answer: "tren", 
+        pronunciation: "trehn", 
+        hint: "Runs on a railway track.", 
+        image: "https://media.craiyon.com/2025-07-19/WlS6_JY5QueJx89VB7qlLQ.webp" 
+      },
+      { 
+        question: "plane", 
+        answer: "avión", 
+        pronunciation: "ah-byohn", 
+        hint: "Flies in the sky.", 
+        image: "https://static.vecteezy.com/system/resources/thumbnails/017/996/078/small_2x/airplane-cartoon-illustrative-design-vector.jpg" 
+      },
+      { 
+        question: "car", 
+        answer: "carro", 
+        pronunciation: "kah-rroh", 
+        hint: "A 4-wheeled road vehicle.", 
+        image: "https://img.magnific.com/premium-vector/car-vector-illustration-classic-red-car-cartoon-transportation_648083-206.jpg" 
+      },
+      { 
+        question: "ticket", 
+        answer: "boleto", 
+        pronunciation: "boh-leh-toh", 
+        hint: "Shows you paid for your ride.", 
+        image: "https://static.vecteezy.com/system/resources/previews/055/742/937/non_2x/hand-drawn-cute-cartoon-illustration-of-lucky-ticket-flat-gift-coupon-doodle-make-a-wish-fortune-in-game-gamble-bet-icon-or-sticker-superstition-symbol-hope-for-the-best-isolated-vector.jpg" 
+      },
+      { 
+        question: "airport", 
+        answer: "aeropuerto", 
+        pronunciation: "ah-eh-roh-pwer-toh", 
+        hint: "Where planes take off and land.", 
+        image: "https://img.magnific.com/premium-photo/cartoon-illustration-airport-terminal-with-airplanes-tarmac_1235831-271402.jpg" 
+      },
+      { 
+        question: "station", 
+        answer: "estación", 
+        pronunciation: "ehss-tah-syohn", 
+        hint: "Where you catch a train.", 
+        image: "https://img.magnific.com/free-vector/train-station-scene-with-steam-locomotive_1308-93939.jpg?semt=ais_hybrid&w=740&q=80" 
+      },
+      { 
+        question: "baggage", 
+        answer: "equipaje", 
+        pronunciation: "eh-kee-pah-kheh", 
+        hint: "Suitcases and bags for travel.", 
+        image: "https://img.magnific.com/free-vector/different-kinds-suitcases-illustrations-set-collection-travel-bags-with-wheels-luggage-baggage-briefcase-isolated-white_74855-20531.jpg?semt=ais_hybrid&w=740&q=80" 
+      },
+      { 
+        question: "map", 
+        answer: "mapa", 
+        pronunciation: "mah-pah", 
+        hint: "A visual guide for navigation.", 
+        image: "https://img.magnific.com/free-vector/vintage-treasure-map-with-compass-illustration_1308-181992.jpg?semt=ais_hybrid&w=740&q=80" 
+      }
+    ]
   },
   6: {
     title: "Colors",
     description: "Learn standard colors.",
     questions: [
-      { question: "red", answer: "rojo", pronunciation: "roh-khoh", hint: "The color of strawberries.", image: "colors/red.png" },
-      { question: "blue", answer: "azul", pronunciation: "ah-thool", hint: "The color of the sky.", image: "colors/blue.png" },
-      { question: "green", answer: "verde", pronunciation: "behr-deh", hint: "The color of leaves and grass.", image: "colors/green.png" },
-      { question: "yellow", answer: "amarillo", pronunciation: "ah-mah-ree-yoh", hint: "The color of sunflowers.", image: "colors/yellow.png" },
-      { question: "black", answer: "negro", pronunciation: "neh-groh", hint: "The darkest color.", image: "colors/black.png" },
-      { question: "white", answer: "blanco", pronunciation: "blahn-koh", hint: "The color of snow.", image: "colors/white.png" },
-      { question: "pink", answer: "rosa", pronunciation: "roh-sah", hint: "The color of flamingos.", image: "colors/pink.png" },
-      { question: "orange", answer: "naranja", pronunciation: "nah-rahn-khah", hint: "Same name as the citrus fruit.", image: "colors/orange.png" },
-      { question: "purple", answer: "morado", pronunciation: "moh-rah-doh", hint: "The color of grapes.", image: "colors/purple.png" },
-      { question: "grey", answer: "gris", pronunciation: "grees", hint: "The color of a storm cloud.", image: "colors/grey.png" },
-    ],
+      { 
+        question: "red", 
+        answer: "rojo", 
+        pronunciation: "roh-khoh", 
+        hint: "The color of strawberries.", 
+        image: "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQz8LPM28q8OH-RyfGdl-F8YjNfc-JmolAX91QvLNVZJ9pBWiEkONM69N0r6P049vztzogOC00DpyfgYu4" 
+      },
+      { 
+        question: "blue", 
+        answer: "azul", 
+        pronunciation: "ah-sool", 
+        hint: "The color of the sky.", 
+        image: "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTUCRsDlH38N1QMrK5UrVgKpARrnuWZjcEdUMZRTveL8QmSG1eltD4IpGU3THHVS_2jJpFwAey-mn0z2nc" 
+      },
+      { 
+        question: "green", 
+        answer: "verde", 
+        pronunciation: "behr-deh", 
+        hint: "The color of grass.", 
+        image: "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSLnj7GqrOHxz5dS1uTUeZNnUhCXmcWI2hzRnA-7LJDhHuQe8JvavDWoiMZWCNpV3wGUv0lJjjjrl1Wt-Y" 
+      },
+      { 
+        question: "yellow", 
+        answer: "amarillo", 
+        pronunciation: "ah-mah-ree-yoh", 
+        hint: "The color of lemons.", 
+        image: "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSUi1sUHm8f33ooYf9nSGjWFwhjwIflkNscx-2hLqlJ6AU7bqy_4oOB8OZs2xWvguBWpC7pJq2wagt8ljM" 
+      },
+      { 
+        question: "black", 
+        answer: "negro", 
+        pronunciation: "neh-groh", 
+        hint: "The darkest color.", 
+        image: "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRUEoe7d7IItJTtqoKcEfG2pdzsO4MYtt49mGmO2IxVu1uTxv5DW78eohT9dhCGBpulKmIA39H7wlZuhAE" 
+      },
+      { 
+        question: "white", 
+        answer: "blanco", 
+        pronunciation: "blahn-koh", 
+        hint: "The color of snow.", 
+        image: "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRSuJt42KKdDmmFnyOHKHf-6OC48urx4m24UsJU8TR9iEeNcvK0lQ4_tV4PEPmQ1PmC8jwKVhC05XBNIoE" 
+      },
+      { 
+        question: "pink", 
+        answer: "rosa", 
+        pronunciation: "roh-sah", 
+        hint: "The color of flamingos.", 
+        image: "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTLXDlhclImG1Tvu-hV18XBEAVFyc-ZboO__M-x7Y_wM4SWo2hiepuk2QQdxLTXb9KRsnVbq2u3s-FRKOs" 
+      },
+      { 
+        question: "orange", 
+        answer: "naranja", 
+        pronunciation: "nah-rahn-khah", 
+        hint: "Same name as the fruit.", 
+        image: "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRm-mZfldWPWVlO8WQK-6nacp8G5XvVEszfPKEWmIK-YSEkjA_tLd4LG1gMbYwirQWGp33qih8hAt3ykiU" 
+      },
+      { 
+        question: "purple", 
+        answer: "morado", 
+        pronunciation: "moh-rah-doh", 
+        hint: "The color of grapes.", 
+        image: "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcS-utWJFoIRhuaM4vd2mP_i9lS2vpPqlRZQrbyppyMFAswXDOuANWBgX2VgAF7ndbWmVXJbYkDeD3pCEXA" 
+      },
+      { 
+        question: "grey", 
+        answer: "gris", 
+        pronunciation: "grees", 
+        hint: "The color of a rain cloud.", 
+        image: "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTxBau3hjRVnBjedXDBD-2aLPExmnH2HEbOw_kayYHAlhZldsDC0SEeGGJT9CC3gAfYGp3e5lw2FSJ-Zeg" 
+      }
+    ]
   },
   7: {
     title: "Numbers",
     description: "Learn to count from 1 to 10.",
     questions: [
-      { question: "one", answer: "uno", pronunciation: "oo-noh", hint: "The first counting number.", image: "numbers/1.png" },
-      { question: "two", answer: "dos", pronunciation: "dohss", hint: "1 + 1", image: "numbers/2.png" },
-      { question: "three", answer: "tres", pronunciation: "trehss", hint: "2 + 1", image: "numbers/3.png" },
-      { question: "four", answer: "cuatro", pronunciation: "kwah-troh", hint: "3 + 1", image: "numbers/4.png" },
-      { question: "five", answer: "cinco", pronunciation: "theen-koh", hint: "4 + 1", image: "numbers/5.png" },
-      { question: "six", answer: "seis", pronunciation: "saywss", hint: "5 + 1", image: "numbers/6.png" },
-      { question: "seven", answer: "siete", pronunciation: "syeh-teh", hint: "6 + 1", image: "numbers/7.png" },
-      { question: "eight", answer: "ocho", pronunciation: "oh-choh", hint: "7 + 1", image: "numbers/8.png" },
-      { question: "nine", answer: "nueve", pronunciation: "nweh-veh", hint: "8 + 1", image: "numbers/9.png" },
-      { question: "ten", answer: "diez", pronunciation: "dyeeth", hint: "9 + 1", image: "numbers/10.png" },
+      { question: "one", answer: "uno", pronunciation: "oo-noh", hint: "The first number.", image: "https://pixabay.com/images/download/x-1019717_1920.jpg" },
+      { question: "two", answer: "dos", pronunciation: "dohss", hint: "1 + 1", image: "https://pixabay.com/images/download/x-1019719_1920.jpg" },
+      { question: "three", answer: "tres", pronunciation: "trehss", hint: "2 + 1", image: "https://pixabay.com/images/download/peggy_marco-number-1019720_1920.jpg" },
+      { question: "four", answer: "cuatro", pronunciation: "kwah-troh", hint: "3 + 1", image: "https://pixabay.com/images/download/x-1019721_1920.jpg" },
+      { question: "five", answer: "cinco", pronunciation: "theen-koh", hint: "4 + 1", image: "https://pixabay.com/images/download/x-1019722_1920.jpg" },
+      { question: "six", answer: "seis", pronunciation: "sayss", hint: "5 + 1", image: "https://pixabay.com/images/download/x-1019724_1920.jpg" },
+      { question: "seven", answer: "siete", pronunciation: "syeh-teh", hint: "6 + 1", image: "https://pixabay.com/images/download/x-1019725_1920.jpg" },
+      { question: "eight", answer: "ocho", pronunciation: "oh-choh", hint: "7 + 1", image: "https://pixabay.com/images/download/x-1019726_1920.jpg" },
+      { question: "nine", answer: "nueve", pronunciation: "nweh-beh", hint: "8 + 1", image: "https://pixabay.com/images/download/x-1019727_1920.jpg" },
+      { question: "ten", answer: "diez", pronunciation: "dyeeth", hint: "9 + 1", image: "https://pixabay.com/images/download/x-28310_1920.png" },
     ],
   },
   8: {
     title: "Clothes",
     description: "Common items of clothing.",
     questions: [
-      { question: "shirt", answer: "camisa", pronunciation: "kah-mee-sah", hint: "An upper-body garment with buttons.", image: "clothes/shirt.png" },
-      { question: "pants", answer: "pantalones", pronunciation: "pahn-tah-loh-nehss", hint: "Worn on your legs.", image: "clothes/pants.png" },
-      { question: "dress", answer: "vestido", pronunciation: "behss-tee-doh", hint: "A one-piece garment.", image: "clothes/dress.png" },
-      { question: "shoes", answer: "zapatos", pronunciation: "thah-pah-tohss", hint: "Footwear for walking outside.", image: "clothes/shoes.png" },
-      { question: "hat", answer: "sombrero", pronunciation: "sohm-breh-roh", hint: "Worn on your head.", image: "clothes/hat.png" },
-      { question: "coat", answer: "abrigo", pronunciation: "ah-bree-goh", hint: "Heavy layer worn when it's freezing.", image: "clothes/coat.png" },
-      { question: "skirt", answer: "falda", pronunciation: "fahl-dah", hint: "Hangs from the waist downward.", image: "clothes/skirt.png" },
-      { question: "socks", answer: "calcetines", pronunciation: "kahl-theh-tee-nehss", hint: "Worn directly on your feet inside shoes.", image: "clothes/socks.png" },
-      { question: "jacket", answer: "chaqueta", pronunciation: "chah-keh-tah", hint: "Light coat layer.", image: "clothes/jacket.png" },
-      { question: "glasses", answer: "gafas", pronunciation: "gah-fahss", hint: "Worn over eyes to improve vision.", image: "clothes/glasses.png" },
-    ],
+      { 
+        question: "shirt", 
+        answer: "camisa", 
+        pronunciation: "kah-mee-sah", 
+        hint: "An upper-body garment with buttons.", 
+        image: "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSSokJPNdDIB_9PgwitWK7hoJmr6YpCONWBUvL4ipQPP6kJR3msrg34uyPHabJqMUr250p6Y2ZaOP7CQko" 
+      },
+      { 
+        question: "pants", 
+        answer: "pantalones", 
+        pronunciation: "pahn-tah-loh-nehss", 
+        hint: "Worn on your legs.", 
+        image: "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSL5uF6AjfjBNXWpLbFxsUvEaBV2iXAiDHtXAeeFUS4trwg00bkrXlzsZC3T_IoKOdFW54Fdn9L4Of80gg" 
+      },
+      { 
+        question: "dress", 
+        answer: "vestido", 
+        pronunciation: "behss-tee-doh", 
+        hint: "A one-piece garment.", 
+        image: "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcT7_ZNgumLxwTsdupFs7g33ZX87-4etkD6TmWZFMkLOkujwrHQX5pO_43MFWq9v17xwD65yBEN7SibgPpY" 
+      },
+      { 
+        question: "shoes", 
+        answer: "zapatos", 
+        pronunciation: "thah-pah-tohss", 
+        hint: "Worn on your feet.", 
+        image: "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQk-oGu4E9mCvDjTz4tjrnwjfbPryBVEBdtwfep3cn0Eud_J-Ly_cwbKkBg76Q-O0FgRKtRaW9QSsc0vwk" 
+      },
+      { 
+        question: "hat", 
+        answer: "sombrero", 
+        pronunciation: "sohm-breh-roh", 
+        hint: "Worn on your head.", 
+        image: "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcS9PZW0gkj_RrQ7UWwhrY1mipaKMOc_9_opgQv8Bf1fbg2IVnmF9yi_ZuN4UpTT3zIHZUx715RHAa9-3t0" 
+      },
+      { 
+        question: "coat", 
+        answer: "abrigo", 
+        pronunciation: "ah-bree-goh", 
+        hint: "Worn outside when it's cold.", 
+        image: "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSRsu2nTcfMOak5gMxzRTWafgpHi2qZTCbo2X3lGKrpA1q0SJCExLES1gthDFO5UtnyD4zb__SGQ6lgMVc" 
+      },
+      { 
+        question: "skirt", 
+        answer: "falda", 
+        pronunciation: "fahl-dah", 
+        hint: "Hangs from the waist downward.", 
+        image: "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTxrWfJUvDNxc2YE-lMnuBTdjeXarDCzoN1iGaWwZDkuk34U0W7uIQrqkDf8bJn4oQmGp6eVFX3-B3caWQ" 
+      },
+      { 
+        question: "socks", 
+        answer: "calcetines", 
+        pronunciation: "kahl-theh-tee-nehss", 
+        hint: "Worn inside your shoes.", 
+        image: "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRbmd1CsvWT-0JkLxThg3iTkk6uSmuysp3h0zx4P78Pyi6ZbOXZpKQ_YTUuA6OXDGQkVS7nO4IztC-t0wA" 
+      },
+      { 
+        question: "jacket", 
+        answer: "chaqueta", 
+        pronunciation: "chah-keh-tah", 
+        hint: "Light coat worn over clothes.", 
+        image: "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSLhUnapSzn2bV6EwZXgtTBaIfy8T2PdY_VU01mNCCAL93VhUkF9kkRjYj5pW4WXbTS07HUt1f0zsajmA0" 
+      },
+      { 
+        question: "glasses", 
+        answer: "gafas", 
+        pronunciation: "gah-fahss", 
+        hint: "Helps you see clearly.", 
+        image: "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRrAymA8Wo-z18IkoYU2vTCYKMcSrlYdIvWOCEi1hchzoG2LqOoVFZZRLkcXsSpNlyeGJrzSXUbO7INtMI" 
+      }
+    ]
   },
   9: {
     title: "Weather",
     description: "Phrases to describe daily weather conditions.",
     questions: [
-      { question: "it is sunny", answer: "hace sol", pronunciation: "ah-theh sohl", hint: "Bright, direct solar light outside.", image: "weather/sunny.png" },
-      { question: "it is raining", answer: "está lloviendo", pronunciation: "ehss-tah yoh-byen-doh", hint: "Water falling actively from clouds.", image: "weather/raining.png" },
-      { question: "it is cold", answer: "hace frío", pronunciation: "ah-theh free-oh", hint: "Low atmospheric temperature.", image: "weather/cold.png" },
-      { question: "it is hot", answer: "hace calor", pronunciation: "ah-theh kah-lor", hint: "High climate temperature.", image: "weather/hot.png" },
-      { question: "sun", answer: "sol", pronunciation: "sohl", hint: "The yellow star in our sky.", image: "weather/sun.png" },
-      { question: "rain", answer: "lluvia", pronunciation: "yoo-byah", hint: "Precipitation.", image: "weather/rain.png" },
-      { question: "snow", answer: "nieve", pronunciation: "nyeh-beh", hint: "Frozen white flakes.", image: "weather/snow.png" },
-      { question: "wind", answer: "viento", pronunciation: "byehn-toh", hint: "Gusty moving air outside.", image: "weather/wind.png" },
-      { question: "cloud", answer: "nube", pronunciation: "noo-beh", hint: "Fluffy white or dark configurations in the sky.", image: "weather/cloud.png" },
-      { question: "it is windy", answer: "hace viento", pronunciation: "ah-theh byehn-toh", hint: "Describing a breezy day.", image: "weather/windy.png" },
-    ],
+      { 
+        question: "it is sunny", 
+        answer: "hace sol", 
+        pronunciation: "ah-theh sohl", 
+        hint: "When the sun is shining brightly.", 
+        image: "https://img.magnific.com/free-vector/flat-design-landscape_23-2149141016.jpg?semt=ais_hybrid&w=740&q=80" 
+      },
+      { 
+        question: "it is raining", 
+        answer: "está lloviendo", 
+        pronunciation: "ehss-tah yoh-byen-doh", 
+        hint: "Water falling from clouds.", 
+        image: "https://img.magnific.com/free-vector/happy-woman-walking-rainy-day-with-umbrella-isolated-flat-vector-illustration-cartoon-female-character-being-outdoors-autumn-rain-landscape-weather-concept_74855-10087.jpg?semt=ais_hybrid&w=740&q=80" 
+      },
+      { 
+        question: "it is cold", 
+        answer: "hace frío", 
+        pronunciation: "ah-theh free-oh", 
+        hint: "Low temperature.", 
+        image: "https://img.magnific.com/premium-vector/cold-woman-character-feeling-freezing-winter-weather-vector-flat-cartoon-illustration_357257-2124.jpg" 
+      },
+      { 
+        question: "it is hot", 
+        answer: "hace calor", 
+        pronunciation: "ah-theh kah-lor", 
+        hint: "High temperature.", 
+        image: "https://static.vecteezy.com/system/resources/previews/013/001/069/non_2x/a-woman-standing-under-sun-light-on-hot-weather-and-having-headache-sunstroke-concept-flat-illustration-vector.jpg" 
+      },
+      { 
+        question: "sun", 
+        answer: "sol", 
+        pronunciation: "sohl", 
+        hint: "The bright star in our sky.", 
+        image: "https://static.vecteezy.com/system/resources/previews/035/665/146/non_2x/flat-illustration-of-cute-sun-cartoon-on-isolated-background-free-vector.jpg" 
+      },
+      { 
+        question: "rain", 
+        answer: "lluvia", 
+        pronunciation: "yoo-byah", 
+        hint: "Precipitation.", 
+        image: "https://static.vecteezy.com/system/resources/previews/072/829/601/non_2x/rain-cloud-icon-with-falling-raindrops-isolated-flat-cartoon-illustration-of-a-rainy-weather-forecast-vector.jpg" 
+      },
+      { 
+        question: "snow", 
+        answer: "nieve", 
+        pronunciation: "nyeh-beh", 
+        hint: "White frozen flakes.", 
+        image: "https://img.magnific.com/free-vector/cute-snowflake-ice-cartoon-vector-icon-illustration-nature-object-icon-isolated-flat-vector_138676-11411.jpg?semt=ais_hybrid&w=740&q=80" 
+      },
+      { 
+        question: "wind", 
+        answer: "viento", 
+        pronunciation: "byen-toh", 
+        hint: "Moving air outside.", 
+        image: "https://img.magnific.com/free-vector/bad-weather-city-funny-flat-composition-with-people-blown-off-their-feet-by-storm_1284-53820.jpg?semt=ais_hybrid&w=740&q=80" 
+      },
+      { 
+        question: "cloud", 
+        answer: "nube", 
+        pronunciation: "noo-beh", 
+        hint: "Fluffy objects in the sky.", 
+        image: "https://img.magnific.com/free-vector/flat-clouds-collection_23-2149019660.jpg?semt=ais_hybrid&w=740&q=80" 
+      },
+      { 
+        question: "it is windy", 
+        answer: "hace viento", 
+        pronunciation: "ah-theh byen-toh", 
+        hint: "Describing a gusty day.", 
+        image: "https://static.vecteezy.com/system/resources/thumbnails/070/511/395/small_2x/strong-wind-bending-green-tree-weather-tornado-concept-flat-illustration-on-white-background-vector.jpg" 
+      }
+    ]
   },
   10: {
     title: "Daily Conversation",
     description: "Simple expressions used in casual everyday chat.",
     questions: [
-      { question: "what is your name?", answer: "cómo te llamas", pronunciation: "koh-moh teh yah-mahss", hint: "Inquiring about someone's name.", image: "conversation/name.png" },
-      { question: "my name is...", answer: "me llamo", pronunciation: "meh yah-moh", hint: "How to introduce yourself.", image: "conversation/myname.png" },
-      { question: "where is...?", answer: "dónde está", pronunciation: "dohn-deh ehss-tah", hint: "Asking for a specific location.", image: "conversation/whereis.png" },
-      { question: "how much is it?", answer: "cuánto cuesta", pronunciation: "kwahn-toh kwehss-tah", hint: "Asking for the market price.", image: "conversation/price.png" },
-      { question: "nice to meet you", answer: "mucho gusto", pronunciation: "moo-choh gooss-toh", hint: "Pleasurable sign-off when meeting someone new.", image: "conversation/nicetomeetyou.png" },
-      { question: "excuse me", answer: "disculpe", pronunciation: "deess-kool-peh", hint: "Polite attention-getter or slight apology.", image: "conversation/excuseme.png" },
-      { question: "I don't understand", answer: "no entiendo", pronunciation: "noh ehn-tyehn-doh", hint: "When meaning isn't completely clear.", image: "conversation/dontunderstand.png" },
-      { question: "do you speak English?", answer: "hablas inglés", pronunciation: "ah-blahss een-glehss", hint: "Checking fallback dialogue capabilities.", image: "conversation/speakenglish.png" },
-      { question: "help", answer: "ayuda", pronunciation: "ah-yoo-dah", hint: "Used in an emergency when you need assistance", image: "conversation/help.png" },
-      { question: "see you soon", answer: "hasta pronto", pronunciation: "ahss-tah prohn-toh", hint: "Parting note when you expect to return quickly.", image: "conversation/seeyousoon.png" },
-    ],
-  },
+      { 
+        question: "what is your name?", 
+        answer: "¿cómo te llamas?", 
+        pronunciation: "koh-moh teh yah-mahss", 
+        hint: "Asking someone's name.", 
+        image: "https://img.magnific.com/free-vector/flat-design-gender-pronouns-illustration_23-2150516857.jpg?semt=ais_hybrid&w=740&q=80" 
+      },
+      { 
+        question: "my name is...", 
+        answer: "me llamo...", 
+        pronunciation: "meh yah-moh", 
+        hint: "Introducing yourself.", 
+        image: "https://img.magnific.com/premium-vector/introducing-yourself-foreign-language-isolated-cartoon-vector-illustration_107173-19074.jpg" 
+      },
+      { 
+        question: "where is...?", 
+        answer: "¿dónde está...?", 
+        pronunciation: "dohn-deh ehss-tah", 
+        hint: "Asking for a location.", 
+        image: "https://static.vecteezy.com/system/resources/previews/026/571/659/non_2x/happy-woman-puts-location-pin-on-map-flat-concept-spot-illustration-traveler-selecting-place-for-vacation-2d-cartoon-character-on-white-for-web-ui-design-isolated-editable-creative-hero-image-vector.jpg" 
+      },
+      { 
+        question: "how much is it?", 
+        answer: "¿cuánto cuesta?", 
+        pronunciation: "kwahn-toh kwehss-tah", 
+        hint: "Asking for the price.", 
+        image: "https://img.magnific.com/free-vector/discount-tag-cartoon-vector-icon-illustration-shopping-object-icon-isolated-flat-vector_138676-17237.jpg?semt=ais_hybrid&w=740&q=80" 
+      },
+      { 
+        question: "nice to meet you", 
+        answer: "mucho gusto", 
+        pronunciation: "moo-choh gooss-toh", 
+        hint: "Said when meeting someone new.", 
+        image: "https://img.magnific.com/free-vector/two-men-shake-hands-with-each-other-isolated-white-background-meeting-greeting-friends-businessmen-deal-agreement-illustration-partnership-cooperation-communication_575670-2344.jpg" 
+      },
+      { 
+        question: "excuse me", 
+        answer: "disculpe", 
+        pronunciation: "deess-kool-peh", 
+        hint: "Getting someone's attention politely.", 
+        image: "https://static.vecteezy.com/system/resources/thumbnails/001/307/896/small/cute-little-girl-with-board-of-excuse-me.jpg" 
+      },
+      { 
+        question: "I don't understand", 
+        answer: "no entiendo", 
+        pronunciation: "noh ehn-tyehn-doh", 
+        hint: "When you miss the meaning.", 
+        image: "https://img.magnific.com/free-vector/hand-drawn-shrug-illustration_23-2149318021.jpg?semt=ais_hybrid&w=740&q=80" 
+      },
+      { 
+        question: "do you speak English?", 
+        answer: "¿habla inglés?", 
+        pronunciation: "ah-blah een-glehss", 
+        hint: "Checking for language compatibility.", 
+        image: "https://img.magnific.com/premium-vector/concept-learning-italian-italian-language-course-language-school_677161-718.jpg?semt=ais_hybrid&w=740&q=80" 
+      },
+      { 
+        question: "help", 
+        answer: "ayuda", 
+        pronunciation: "ah-yoo-dah", 
+        hint: "Shouted in an emergency.", 
+        image: "https://static.vecteezy.com/system/resources/previews/026/780/698/non_2x/first-aid-emergency-rescue-concept-colored-flat-illustration-isolated-vector.jpg" 
+      },
+      { 
+        question: "see you soon", 
+        answer: "hasta pronto", 
+        pronunciation: "ahss-tah prohn-toh", 
+        hint: "Saying bye when you will meet again quickly.", 
+        image: "https://media.istockphoto.com/id/2078557092/vector/happy-stickman-with-speech-bubble-bye-see-ya-see-you-soon-vector.jpg?s=612x612&w=0&k=20&c=9ru43nd2-iFTURAQ6CNeiNjIFMYNULVp0wZwK98WJ18=" 
+      }
+    ]
+  }
 };
