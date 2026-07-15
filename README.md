@@ -1,36 +1,126 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CapyLingo
 
-## Getting Started
+CapyLingo is an AI-powered language learning application built with Next.js that helps users learn new languages through interactive lessons, quizzes, pronunciation practice, and AI assistance.
 
-First, run the development server:
+The idea behind CapyLingo is to make language learning more enjoyable by combining structured vocabulary lessons with an interactive learning experience.
+
+## Live Demo
+
+https://capylingo-aavxa19w8-nancys-projects-efd89577.vercel.app
+
+## Features
+
+- Learn vocabulary through interactive lessons
+- Support for multiple languages:
+  - French
+  - Spanish
+  - Japanese
+  - Chinese
+- Image-based vocabulary learning
+- Pronunciation support using the browser speech synthesis API
+- Quiz system to test learned words
+- XP system to track learning progress
+- Lesson completion screens and course progression
+- Learning streak tracking
+- AI-powered assistance using Google Gemini
+- AI-generated lessons based on user-selected topics
+
+## How It Works
+
+Each lesson contains vocabulary words with:
+
+- English meaning
+- Target language translation
+- Pronunciation guide
+- Helpful hints
+- Visual images
+
+Users first learn the vocabulary through the lesson mode, then complete a quiz to test their understanding.
+
+Correct answers reward XP and allow users to progress through the course. If users answer incorrectly, they can ask the AI assistant for explanations and guidance.
+
+## Technologies Used
+
+- Next.js
+- React
+- TypeScript
+- CSS
+- Google Gemini API
+- Web Speech API
+- Local Storage
+
+## Project Structure
+
+```text
+app/
+├── api/
+│   ├── ai/
+│   └── generate-lesson/
+│
+├── components/
+│   ├── LessonCompleteScreen.tsx
+│   └── CourseCompleteScreen.tsx
+│
+├── course/
+├── lesson/
+├── dashboard/
+│
+└── data/
+    ├── french.ts
+    ├── spanish.ts
+    ├── japanese.ts
+    └── chinese.ts
+
+public/
+└── images and application assets
+```
+
+## Running the Project Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/NancyA1/capylingo.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create a `.env.local` file and add your Gemini API key:
+
+```env
+GEMINI_API_KEY=your_api_key_here
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open the application:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Deployment
 
-## Learn More
+The project is deployed using Vercel.
 
-To learn more about Next.js, take a look at the following resources:
+Live Demo:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+https://capylingo-aavxa19w8-nancys-projects-efd89577.vercel.app
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Future Improvements
 
-## Deploy on Vercel
+Some improvements planned for CapyLingo:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- User accounts and cloud progress saving
+- More languages and lessons
+- AI conversation practice
+- Improved pronunciation feedback
+- Mobile application version
