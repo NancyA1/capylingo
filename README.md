@@ -6,7 +6,7 @@ The idea behind CapyLingo is to make language learning more enjoyable by combini
 
 ## Live Demo
 
-https://capylingo-aavxa19w8-nancys-projects-efd89577.vercel.app
+https://capylingo.vercel.app
 
 ## Features
 
@@ -113,8 +113,7 @@ The project is deployed using Vercel.
 
 Live Demo:
 
-https://capylingo-aavxa19w8-nancys-projects-efd89577.vercel.app
-
+https://capylingo.vercel.app
 ## Future Improvements
 
 Some improvements planned for CapyLingo:
